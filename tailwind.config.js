@@ -5,8 +5,8 @@ module.exports = {
       fontFamily: {
         Rampart: ["Rampart One", "cursive"],
         Roboto: ["Roboto", "sans-serif"],
-       }
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [require("flowbite/plugin")],
+};
