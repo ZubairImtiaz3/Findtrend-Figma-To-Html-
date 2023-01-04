@@ -43,7 +43,7 @@
               <ul>
                 <li>
                   <div
-                    class="mirrorNav w-full flex flex-col items-center gap-10 pt-4 pb-2 absolute bg-[#000000c9] h-[100vh] xl:w-fit xl:h-fit xl:flex-row xl:justify-between xl:mt-0 xl:pt-0 xl:pb-0 xl:relative xl:bg-transparent"
+                    class="navLinks w-full flex flex-col items-center gap-10 pt-4 pb-2 absolute bg-[#000000c9] h-[100vh] xl:w-fit xl:h-fit xl:flex-row xl:justify-between xl:mt-0 xl:pt-0 xl:pb-0 xl:relative xl:bg-transparent"
                   >
                     <a
                       class="text-white font-normal text-lg font-Roboto"
@@ -89,6 +89,7 @@
             </div>
 
             <button
+              id="hamButton"
               data-collapse-toggle="navbar-default"
               type="button"
               class="xl:hidden"
@@ -97,6 +98,7 @@
             >
               <div
                 aria-hidden="true"
+                id="navCross"
                 class="hamburger space-y-[0.35rem] cursor-pointer xl:hidden"
               >
                 <div

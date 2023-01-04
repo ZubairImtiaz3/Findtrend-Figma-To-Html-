@@ -97,4 +97,19 @@ body {
   padding-top: 12px !important;
   padding-bottom: 12px;
 }
+
+.hamburger.active .line1 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 6px;
+  width: 1.625rem;
+  transition: width 0.05s ease-out;
+}
+.hamburger.active .line2 {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -1px;
+  width: 1.625rem;
+  transition: width 0.05s ease-out;
+}
 @tailwind utilities;
